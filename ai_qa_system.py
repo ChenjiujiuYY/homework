@@ -191,7 +191,7 @@ class QAInterface:
     def __init__(self, root):
         self.root = root
         self.root.title("人工智能基础问答系统")
-        self.root.geometry("720x620")
+        self.root.geometry("980x640")
         self.root.resizable(False, False)
         self.root.configure(bg="#f0f4f8")
 
@@ -268,7 +268,7 @@ class QAInterface:
         self.answer_text.pack(fill="both", expand=True, pady=(4, 0))
 
         # ---- 右侧：知识库分类浏览 ----
-        right_frame = tk.Frame(main_frame, bg="#ffffff", bd=2, relief="groove", width=200)
+        right_frame = tk.Frame(main_frame, bg="#ffffff", bd=2, relief="groove", width=280)
         right_frame.pack(side="right", fill="y", padx=(12, 0))
         right_frame.pack_propagate(False)
 
