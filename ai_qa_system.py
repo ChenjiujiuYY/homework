@@ -238,9 +238,10 @@ class QAInterface:
             left_frame,
             text="提交问题",
             font=("PingFang SC", 11, "bold"),
-            bg="#2563eb",
-            fg="white",
-            activebackground="#1d4ed8",
+            bg="#e0e7ff",
+            fg="#1e293b",
+            activebackground="#2563eb",
+            activeforeground="white",
             cursor="hand2",
             command=self._submit,
         )
